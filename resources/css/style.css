@@ -1,0 +1,115 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+margin: 0 auto;
+background-image: url('./images/htmlcss1-img_foodlogo.png');
+}
+
+a,
+h1,
+span {
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+header {
+width: 300px;
+margin: 50px auto;
+overflow: scroll;
+}
+
+header li {
+overflow: hidden;
+text-align: center;
+font-family:'Raleway', sans-serif;
+font-size: 1.2rem;
+font-weight: 100;
+margin: 20px;
+}
+
+a {
+text-decoration: none;
+}
+
+.bacon {
+background-image: url('./images/htmlcss1-img_burgerphoto.jpeg');
+background-position: center;
+background-size: cover;
+height: 35rem;
+}
+
+h1 {
+text-align: center;
+padding: 30px 100px;
+background-color: teal;
+color: snow;
+width: 400px;
+margin: 30px auto;
+font-family: 'Lora', serif;
+font-weight: bold;
+font-size: 2rem;
+}
+
+p {
+text-align: center;
+opacity: 0.75;
+width: 90%;
+margin: 30px auto;
+line-height: 1.5;
+font-size: 1.2rem;
+font-family: 'PT Serif', serif;
+font-weight: normal;
+}
+
+.button {
+border: 1.5px solid blue;
+text-align: center;
+width: 260px;
+margin: 40px auto;
+padding: 20px;
+border-radius: 4px;
+font-size: 1.1rem;
+font-family: 'Elsie Swash Caps', cursive;
+font-weight: 500;
+color: teal;
+}
+
+.button:hover{
+background-color: teal;
+color: azure;
+border: 1.5px solid teal;
+}
+
+content ul {
+width: 300px;
+}
+
+.content li {
+display: inline-block;
+border: 1.5px solid teal;
+background-color: teal;
+padding: 20px;
+text-align: center;
+margin: 3px;
+}
+
+span {
+color: azure;
+display: block;
+width: 200px;
+font-family: 'ZCOOL XiaoWei', serif;
+font-size: 1.1rem;
+}
+
+.names {
+font-weight: 100;
+}
+
+.value {
+text-align: center;
+font-weight: 900;
+font-size: 1.3rem;
+}
